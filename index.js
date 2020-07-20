@@ -1,6 +1,12 @@
 // Your code goes here
 
-document.addEventListener("DOMContentLoaded", function() 
+document.addEventListener( "DOMContentLoaded", function () 
 {
-  return 'This is really cool!'
-});
+  updateDOM()
+} );
+
+
+function updateDOM() 
+{
+  document.getElementById( "text" ).innerHTML = "This is really cool!";
+}
