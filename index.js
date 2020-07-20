@@ -2,5 +2,5 @@
 
 document.addEventListener("DOMContentLoaded", function() 
 {
-  return ''
+  return 'This is really cool!'
 });
